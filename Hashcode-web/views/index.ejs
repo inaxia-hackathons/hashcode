@@ -1,0 +1,378 @@
+<%- include('partials/header')-%>
+
+<section id="courses"> 
+    <div class="jumbotron testimonial-group">
+        <h1 class="text-center">Courses</h1>
+        <div class="row">
+       
+            <div class="card card-description col-3" >
+                <div class="card-body">
+                <img src="images/1.gif" class="card-img" alt="...">
+                <h3 class="text-center">C</h3>
+                <div class="card-footer">
+                    <a href="" class="btn btn-secondary course-btn" data-toggle="modal" data-target="#staticBackdrop">Learn</a>
+                    <!-- <a href="" class="btn btn-secondary cdgrnd-btn" data-toggle="modal" data-target="#staticBackdrop">Code</a> -->
+                </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Courses</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <ol class="list-group">
+                                        <%  for(var i=0; i< videoListData.length; i++){ %>
+                                            <a class="list-group-item list-group-item-action" href=<%=videoList[i] %>><%= videoListData[i] %></a>
+                                        <%  } %>
+                                    </ol>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-description col-3" >
+                <div class="card-body">
+                <img src="images/2.gif" class="card-img" alt="...">
+                <h3 class="text-center">C++</h3>
+                <div class="card-footer">
+                    <a href="" class="btn btn-secondary course-btn" data-toggle="modal" data-target="#staticBackdrop">Learn</a>
+                    <!-- <a href="//onlinegdb.com/embed/js/ch55qujui?theme=dark" class="btn btn-secondary cdgrnd-btn" data-toggle="modal" data-target="#staticBackdrop">Code</a> -->
+                </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Courses</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <ol class="list-group">
+                                        <%  for(var i=0; i< videoListData.length; i++){ %>
+                                            <a class="list-group-item list-group-item-action" href=<%=videoList[i] %>><%= videoListData[i] %></a>
+                                        <%  } %>
+                                    </ol>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card card-description col-3" >
+                <div class="card-body">
+                <img src="images/3.gif" class="card-img" alt="...">
+                <h3 class="text-center">Java</h3>
+                <div class="card-footer">
+                    <a href="" class="btn btn-secondary course-btn" data-toggle="modal" data-target="#staticBackdrop">Learn</a>
+                    <!-- <a href="" class="btn btn-secondary cdgrnd-btn" data-toggle="modal" data-target="#staticBackdrop">Code</a> -->
+                </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Courses</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <ol class="list-group">
+                                        <%  for(var i=0; i< videoListData.length; i++){ %>
+                                            <a class="list-group-item list-group-item-action" href=<%=videoList[i] %>><%= videoListData[i] %></a>
+                                        <%  } %>
+                                    </ol>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card card-description col-3" >
+                <div class="card-body">
+                <img src="images/4.gif" class=" card-img" alt="...">
+                <h3 class="text-center">Python</h3>
+                <div class="card-footer">
+                    <a href="" class="btn btn-secondary course-btn" data-toggle="modal" data-target="#staticBackdrop">Learn</a>
+                    <!-- <a href="" class="btn btn-secondary cdgrnd-btn" data-toggle="modal" data-target="#staticBackdrop">Code</a> -->
+                </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Courses</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <ol class="list-group">
+                                        <%  for(var i=0; i< videoListData.length; i++){ %>
+                                            <a class="list-group-item list-group-item-action" href=<%=videoList[i] %>><%= videoListData[i] %></a>
+                                        <%  } %>
+                                    </ol>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card card-description col-3" >
+                <div class="card-body">
+                <img src="images/5.gif" class=" card-img" alt="...">
+                <h3 class="text-center">Go</h3>
+                <div class="card-footer">
+                    <a href="" class="btn btn-secondary course-btn" data-toggle="modal" data-target="#staticBackdrop">Learn</a>
+                    <!-- <a href="" class="btn btn-secondary cdgrnd-btn" data-toggle="modal" data-target="#staticBackdrop">Code</a> -->
+                </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Courses</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <ol class="list-group">
+                                        <%  for(var i=0; i< videoListData.length; i++){ %>
+                                            <a class="list-group-item list-group-item-action" href=<%=videoList[i] %>><%= videoListData[i] %></a>
+                                        <%  } %>
+                                    </ol>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card card-description col-3" >
+                <div class="card-body">
+                <img src="images/6.gif" class=" card-img" alt="...">
+                <h3 class="text-center">C#</h3>
+                <div class="card-footer">
+                    <a href="" class="btn btn-secondary course-btn" data-toggle="modal" data-target="#staticBackdrop">Learn</a>
+                    <!-- <a href="" class="btn btn-secondary cdgrnd-btn" data-toggle="modal" data-target="#staticBackdrop">Code</a> -->
+                </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Courses</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <ol class="list-group">
+                                        <%  for(var i=0; i< videoListData.length; i++){ %>
+                                            <a class="list-group-item list-group-item-action" href=<%=videoList[i] %>><%= videoListData[i] %></a>
+                                        <%  } %>
+                                    </ol>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card card-description col-3" >
+                <div class="card-body">
+                <img src="images/7.gif" class=" card-img" alt="...">
+                <h3 class="text-center">R</h3>
+                <div class="card-footer">
+                    <a href="" class="btn btn-secondary course-btn" data-toggle="modal" data-target="#staticBackdrop">Learn</a>
+                    <!-- <a href="" class="btn btn-secondary cdgrnd-btn" data-toggle="modal" data-target="#staticBackdrop">Code</a> -->
+                </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Courses</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <ol class="list-group">
+                                        <%  for(var i=0; i< videoListData.length; i++){ %>
+                                            <a class="list-group-item list-group-item-action" href=<%=videoList[i] %>><%= videoListData[i] %></a>
+                                        <%  } %>
+                                    </ol>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card card-description col-3" >
+                <div class="card-body">
+                <img src="images/8.gif" class=" card-img" alt="...">
+                <h3 class="text-center">Javascript</h3>
+                <div class="card-footer">
+                    <a href="" class="btn btn-secondary course-btn" data-toggle="modal" data-target="#staticBackdrop">Learn</a>
+                    <!-- <a href="" class="btn btn-secondary cdgrnd-btn" data-toggle="modal" data-target="#staticBackdrop">Code</a> -->
+                </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Courses</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <ol class="list-group">
+                                        <%  for(var i=0; i< videoListData.length; i++){ %>
+                                            <a class="list-group-item list-group-item-action" href=<%=videoList[i] %>><%= videoListData[i] %></a>
+                                        <%  } %>
+                                    </ol>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card card-description col-3" >
+                <div class="card-body">
+                <img src="images/9.gif" class=" card-img" alt="...">
+                
+                <h3 class="text-center">PHP</h3>
+                <div class="card-footer">
+                    <a href="" class="btn btn-secondary course-btn" data-toggle="modal" data-target="#staticBackdrop">Learn</a>
+                    <!-- <a href="" class="btn btn-secondary cdgrnd-btn" data-toggle="modal" data-target="#staticBackdrop">Code</a> -->
+                </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Courses</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <ol class="list-group">
+                                        <%  for(var i=0; i< videoListData.length; i++){ %>
+                                            <a class="list-group-item list-group-item-action" href=<%=videoList[i] %>><%= videoListData[i] %></a>
+                                        <%  } %>
+                                    </ol>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card card-description col-3" >
+                <div class="card-body">
+                <img src="images/10.gif" class=" card-img" alt="...">
+                <h3 class="text-center">Swift</h3>
+                <div class="card-footer">
+                    <a href="" class="btn btn-secondary course-btn" data-toggle="modal" data-target="#staticBackdrop">Learn</a>
+                    <!-- <a href="" class="btn btn-secondary cdgrnd-btn" data-toggle="modal" data-target="#staticBackdrop">Code</a> -->
+                </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Courses</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <ol class="list-group">
+                                        <%  for(var i=0; i< videoListData.length; i++){ %>
+                                            <a class="list-group-item list-group-item-action" href=<%=videoList[i] %>><%= videoListData[i] %></a>
+                                        <%  } %>
+                                    </ol>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+<%- include('partials/footer')-%>
+
+<script type="text/javascript" src="app.js"></script>
